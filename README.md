@@ -75,14 +75,4 @@ A full data dictionary is provided in `docs/`.
 # clone repo
 git clone https://github.com/your-user/edu-socioecon-dynamics.git
 cd edu-socioecon-dynamics
-
-# set up Python env
-python -m venv venv && source venv/bin/activate
-pip install -r requirements.txt
-
-# (optional) rebuild SQLite DB
-python src/build_db.py data/world_education.csv
-
-# run notebooks
-jupyter lab
 ```
